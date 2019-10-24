@@ -1,0 +1,12 @@
+2019-10-24 11:46:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column """DATE_FORMAT"" BINARY(255)": "X'aced00057372001a6a6176612e746578742e53696d706c6544617465466f726d61744243c9da9394359002000549001573657269616c56657273696f6e4f6e... (46646)"; SQL statement:
+insert into waybill (date_format, recipients_recipients_num, status, time, way_bill_number) values (?, ?, ?, ?, ?) [22001-199]
+2019-10-24 11:56:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column """DATE_FORMAT"" BINARY(255)": "X'aced00057372001a6a6176612e746578742e53696d706c6544617465466f726d61744243c9da9394359002000549001573657269616c56657273696f6e4f6e... (46646)"; SQL statement:
+insert into waybill (date_format, recipients_recipients_num, status, time, way_bill_number) values (?, ?, ?, ?, ?) [22001-199]
+2019-10-24 11:57:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column """DATE_FORMAT"" BINARY(255)": "X'aced00057372001a6a6176612e746578742e53696d706c6544617465466f726d61744243c9da9394359002000549001573657269616c56657273696f6e4f6e... (46646)"; SQL statement:
+insert into waybill (date_format, status, time, way_bill_number) values (?, ?, ?, ?) [22001-199]
+2019-10-24 11:58:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column """DATE_FORMAT"" BINARY(255)": "X'aced00057372001a6a6176612e746578742e53696d706c6544617465466f726d61744243c9da9394359002000549001573657269616c56657273696f6e4f6e... (46646)"; SQL statement:
+insert into waybill (date_format, status, time, way_bill_number) values (?, ?, ?, ?) [22001-199]
